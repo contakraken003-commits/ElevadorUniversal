@@ -1,0 +1,9 @@
+# Elevador Universal 0.2.0
+# Faixas verticais de 64 blocos. O par verde/vermelho deve ficar na mesma faixa.
+height-band-size: 64
+
+# Tempo mínimo entre ativações do mesmo jogador, em milissegundos.
+teleport-cooldown-ms: 900
+
+# Mensagens podem ser personalizadas futuramente.
+debug: false

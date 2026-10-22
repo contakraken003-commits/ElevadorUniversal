@@ -1,0 +1,15 @@
+name: ElevadorUniversal
+version: '0.2.0'
+main: br.com.hyckelme.elevadoruniversal.ElevadorUniversalPlugin
+api-version: '1.20'
+author: Hyckelme
+description: Elevadores por pares de blocos para servidores Java com suporte a clientes Bedrock via Geyser.
+commands:
+  elevador:
+    description: Comandos do Elevador Universal
+    usage: /elevador <ajuda|status|give>
+    aliases: [elevadores, eu]
+permissions:
+  elevador.admin:
+    description: Permite entregar pares de elevador e administrar o plugin.
+    default: op
